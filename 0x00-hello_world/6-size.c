@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/*
- * 
+/* 
  * main - A code that prints out sizes of different types
  * return: Always return 0 (Success)
  *
