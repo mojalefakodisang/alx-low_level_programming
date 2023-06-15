@@ -1,7 +1,7 @@
 /*
- * puts function returns message string stored in variable $message character
- *
- * */
+ * The code prints out string stored in variable message
+ */
+
 #include <stdio.h>
 
 int main(void)
