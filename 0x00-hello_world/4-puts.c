@@ -1,3 +1,7 @@
+/*
+ * puts function returns message string stored in variable $message character
+ *
+ * */
 #include <stdio.h>
 
 int main(void)
