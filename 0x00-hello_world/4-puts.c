@@ -2,9 +2,10 @@
 
 int main(void)
 {
-	const char* message="\"Programming is like building a multilingual puzzle \n";
+	const char* message = "\"Programming is like building a multilingual puzzle \n";
+	
 	puts(message);
-
-	return 0;
+	
+	return (0);
 
 }
