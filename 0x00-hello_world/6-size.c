@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - A code that prints out sizes of different types
- * return: Always return 0 (Success)
- *
+ * main - Entry point
+ * Return: Always return 0 (Success)
  */
-
 int main(void)
 {
 	char a;
