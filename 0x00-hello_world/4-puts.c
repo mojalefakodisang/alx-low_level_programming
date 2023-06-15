@@ -1,15 +1,13 @@
-/*
- * The code prints out string stored in variable message
- */
-
 #include <stdio.h>
 
-/* constant character message prints the string*/
+/**
+ * Main -prints string message under puts() function
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
-	const char *message = "\"Programming is like building a multilingual puzzle";
-/* puts function is return upon calling it and returns message variable*/
-	puts(message);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
