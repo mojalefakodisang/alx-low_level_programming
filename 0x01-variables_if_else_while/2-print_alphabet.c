@@ -1,14 +1,29 @@
 #include <stdio.h>
+/**
+ * The following code prints out aplphabets from a to z vertically
+ *
+ * lowerCaseAlphabets: prints alphabets from a to z
+ * Return: returns the fuction
+ */
 
-struct lowerCaseAlphabets()
+int lowerCaseAlphabets(void)
 {
 	char letters;
 
-	for (letters = 'a'; letters <= 'z'; letters++)
+	letters = 'a';
+	while (letters <= 'z')
 	{
-		printf("%c \n", letters);
+		printf("%c ", letters);
+		letters++;
 	}
+	printf("\n");
+
+	return lowerCaseAlphabets();
 }
+/**
+ * main: returns lowerCaseAlphabets function
+ * return - Always returns 0 (success)
+ */
 
 int main(void)
 {
