@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 /*
-main: code will print any random number and
-return: Always return 0
+* main - print any random number and prints if its - or +
+* return - Always return 0
+* @n - is a variable that returns random number
 */
 
 int main(void)
