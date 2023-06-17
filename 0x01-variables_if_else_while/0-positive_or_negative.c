@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* */
+/*
+main: code will print any random number and
+return: Always return 0
+*/
 
-/* */
 int main(void)
 {
 	int n;
