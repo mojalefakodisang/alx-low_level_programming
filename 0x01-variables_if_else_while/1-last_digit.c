@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 /* new libraries added*/
-
 /* *
  * main - prints last digit of random number n
  * return: always return 0 (success)
