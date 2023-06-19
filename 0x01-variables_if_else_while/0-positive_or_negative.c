@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Entry point of the program
- * return: Always returns 0 (Success)
+ * main - Entry point of the program. Prints random numbers
+ * with positive or negative numbers.
+ *
+ * Return: Returns 0 on success.
  */
+
 int main(void)
 {
 	int n;
@@ -24,6 +26,5 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-
 	return (0);
 }
