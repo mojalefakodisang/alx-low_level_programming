@@ -6,27 +6,12 @@
  * Return: returns the fuction
  */
 
-int lowerCaseAlphabets(void)
+int lowerCaselphabets(void)
 {
 	char letters;
-
-	letters = 'a';
-	while (letters <= 'z')
+	for (letters = 'a'; letters <= 'z'; letters++)
 	{
-		printf("%c ", letters);
-		letters++;
+		putchar(letters);
 	}
-	printf("\n");
-
-	return lowerCaseAlphabets();
-}
-/**
- * main: returns lowerCaseAlphabets function
- * return - Always returns 0 (success)
- */
-
-int main(void)
-{
-	lowerCaseAlphabets();
 	return (0);
 }
