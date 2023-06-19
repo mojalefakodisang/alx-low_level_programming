@@ -1,39 +1,27 @@
 #include <stdio.h>
-
-int lowerCaseAlphabets(void)
-{
-    int letters;
-
-    letters = 'a';
-
-    while (letters <= 'z')
-    {
-        printf("%c", letters);
-        letters++;
-    }
-    return lowerCaseAlphabets();
-}
-
-int upperCaseAlphabets(void)
-{
-    int lettersUpper;
-
-    lettersUpper = 'A';
-
-    while (lettersUpper <= 'Z')
-    {
-        printf("%c", lettersUpper);
-        lettersUpper++;
-    }
-    return upperCaseAlphabets();
-}
+/**
+ * main: prints lower and upper case alphabets
+ * return - Always 0 (Success)
+ */
 
 int main(void)
 {
-	char alphabets;
+	char l;
 
-	alphabets = lowerCaseAlphabets && upperCaseAlphabets;
+	char u;
 
-	printf("%c \n", alphabets);
-	return 0;
+	l = 'a';
+	u = 'A';
+	while (l <= 'z')
+	{
+		putchar(l);
+		l++;
+	}
+	while (u <= 'Z')
+	{
+		putchar(u);
+		u++;
+	}
+	putchar('\n');
+	return (0);
 }
