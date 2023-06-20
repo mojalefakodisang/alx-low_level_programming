@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main: Entry poin of the program
+ * main - Entry point. Prints 0 to 9 and a to f
  *
- * return - always 0
+ * Return: Returns 0
  */
 
 int main(void)
