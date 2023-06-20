@@ -3,8 +3,10 @@
 #include <stdio.h>
 /**
  * main - prints last digit of random number n
- * return: always return 0 (success)
-*/
+ *
+ * Return: always return 0 (success)
+ */
+
 int main(void)
 {
 	int n;
