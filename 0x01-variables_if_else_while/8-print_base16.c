@@ -13,15 +13,15 @@ int main(void)
 
 	ch = 'a';
 	d = 0;
-	while (ch <= 'f')
-	{
-		putchar(ch);
-		ch++;
-	}
 	while (d < 10)
 	{
 		putchar(d + '0');
 		d++;
+	}
+	while (ch <= 'f')
+	{
+		putchar(ch);
+		ch++;
 	}
 
 	putchar('\n');
