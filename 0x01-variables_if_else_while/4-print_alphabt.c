@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * return: Always 0 (success)
+ * main - Entry point. Prints all alphabets except e and q
+ *
+ * Return: Returns 0 on success
  */
 
 int main(void)
