@@ -6,7 +6,7 @@
  *
  * Return: No return value
  */
-char print_alphabet(void)
+char print_alphabet()
 {
 	char i;
 
@@ -17,16 +17,5 @@ char print_alphabet(void)
 		i++;
 	}
 	putchar('\n');
-	return (0);
-}
-
-/**
- * main - check the code
- *
- * Return: Always 0
- */
-int main(void)
-{
-	print_alphabet();
 	return (0);
 }
