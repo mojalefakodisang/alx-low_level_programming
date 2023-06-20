@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints all alphabets in alphabetical order
+ * print_alphabet - prints all alphabets
  *
  * Return: No return value
  */
