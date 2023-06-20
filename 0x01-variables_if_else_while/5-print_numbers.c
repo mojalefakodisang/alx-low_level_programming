@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main: prints single digit numbers of base 10
+ * main - Entry point. Prints single digit numbers of base 10
  *
- * return - Always 0 (Success)
+ * Return: Returns 0 on success
  */
 
 int main(void)
@@ -13,6 +13,7 @@ int main(void)
 	{
 		printf("%d", i);
 	}
+
 	putchar('\n');
 	return (0);
 }
