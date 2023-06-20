@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main: Entry point of the prorgam
- * Description: prints lowercase alphabets in reverse
+ * main - Entry point. Prints lowercase alphabets in reverse
  *
- * return - 0 on success
+ * Return: Returns 0 on success
  */
 
 int main(void)
