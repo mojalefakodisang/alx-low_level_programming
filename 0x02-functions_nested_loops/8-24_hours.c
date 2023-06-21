@@ -6,7 +6,7 @@
  *
  * Return: No value to return
  */
-void jack_bauver(void)
+void jack_bauer(void)
 {
 	int H, h, M, m;
 
