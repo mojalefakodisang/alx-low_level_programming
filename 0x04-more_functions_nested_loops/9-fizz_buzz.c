@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Prints Fizz or Buzz
@@ -16,20 +15,21 @@ int main(void)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s\n", c);
+			printf("%s ", c);
 		}
 		else if (i % 3 == 0)
 		{
-			printf("%s\n", a);
+			printf("%s ", a);
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%s\n", b);
+			printf("%s ", b);
 		}
 		else
 		{
-			printf("%d\n", i);
+			printf("%d ", i);
 		}
 	}
+	printf("\n");
 	return (0);
 }
