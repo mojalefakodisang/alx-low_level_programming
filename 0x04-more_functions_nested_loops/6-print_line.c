@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_line - prints lines from variable n
+ * @n: Maximum number of character '_'
+ * Return: No return value
+ */
 void print_line(int n)
 {
 	char m;
