@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9 using ASCII code
- * @i: variable to be returned
- *
  * Return: No value to be returned
  */
 void print_numbers(void)
