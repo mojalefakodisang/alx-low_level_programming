@@ -7,9 +7,9 @@
 int main(void)
 {
 	int i;
-	char *a = "Fizz";
-	char *b = "Buzz";
-	char *c = "FizzBuzz";
+	const char *a = "Fizz";
+	const char *b = "Buzz";
+	const char *c = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
