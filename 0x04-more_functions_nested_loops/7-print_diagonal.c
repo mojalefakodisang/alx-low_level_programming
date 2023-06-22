@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Prints a diagonal dependent on integer n
- *
+ * @n: Number of times a diagonal is printed
  * Return: No value returned
  */
 void print_diagonal(int n)
