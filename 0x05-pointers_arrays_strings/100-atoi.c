@@ -8,17 +8,31 @@
  */
 int _atoi(char *s)
 {
-	int index;
+	int i;
+	int sign;
+	int result;
 
-	index = '0';
-	while (s[index] != '\0')
+	i = 0;
+	sign = 1;
+	result = 0;
+
+	if (s[i] == '-')
 	{
-		if ((s[index] >= '0' && s[index] <= '9')
-			|| (s[index] == '-' && s[index + 1] >= '0' && s[index + 1] <= '9'))
-		{
-			printf("%c", s[index]);
-		}
-		index++;
+		sign = -1;
+		i = 1;
 	}
-	return (0);
+	while (s[i] != '\0')
+	{
+		if (s[i] >= '0' && s[i] <= '9')
+		{
+			result = result * 10 + (s[i] - '0');
+		}
+		else
+		{
+			return (0);
+		}
+		i++;
+	}
+	result *= sign;
+	return (result);
 }
