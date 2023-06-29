@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * *_strcat - Appends src string into dest string
+ * _strncat - Appends src string into dest string
  * @dest: First string
  * @src: String to be appended to dest
+ * @n: Length of string
  * Return: Returns dest string
  */
 char *_strncat(char *dest, char *src, int n)
