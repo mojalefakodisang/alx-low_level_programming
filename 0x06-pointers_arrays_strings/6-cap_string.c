@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * cap_string - Function that capitalize the first letter of each word
+ * @str: Source string
+ * Return: Returns a converted string
+ */
 char *cap_string(char *str)
 {
 	int n;
@@ -14,7 +19,11 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
+		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || 
+		str[i] == ',' || str[i] == ';' || str[i] == '.' || 
+		str[i] == '!' || str[i] == '?' || str[i] == '"' ||
+		str[i] == '(' || str[i] == ')' || str[i] == '{' ||
+		str[i] == '}')
 		{
 			n = 1;
 		}
