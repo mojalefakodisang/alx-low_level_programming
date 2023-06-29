@@ -14,11 +14,6 @@ char *cap_string(char *str)
 
 	special[13] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
-	if (*str == '\0')
-	{
-		return (str);
-	}
-
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
