@@ -10,7 +10,7 @@ char *cap_string(char *str)
 {
 	int i;
 	int j;
-	char special[];
+	char special[13];
 
 	special[13] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
