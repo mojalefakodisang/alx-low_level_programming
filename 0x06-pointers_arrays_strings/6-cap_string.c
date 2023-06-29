@@ -39,7 +39,7 @@ char *cap_string(char *str)
 		{
 			if (str[i] >= 'A' && str[i] <= 'Z')
 			{
-				str[i] = str[i] - 'A' + 'a';
+				str[i] += 32;
 			}
 		}
 	}
