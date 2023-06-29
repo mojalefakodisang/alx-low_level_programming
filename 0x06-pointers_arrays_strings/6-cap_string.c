@@ -8,10 +8,12 @@
  */
 char *cap_string(char *str)
 {
-	int n;
 	int i;
+	int j;
+	char special[];
 
-	n = 1;
+	special[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
 	if (*str == '\0')
 	{
 		return (str);
@@ -19,27 +21,18 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
-				str[i] == ',' || str[i] == ';' || str[i] == '.' ||
-				str[i] == '!' || str[i] == '?' || str[i] == '"' ||
-				str[i] == '(' || str[i] == ')' || str[i] == '{' ||
-				str[i] == '}')
+		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
 		{
-			n = 1;
+			s[i] -= 32;
 		}
-		else if (n)
+		for (j = 0; j < 13; j++)
 		{
-			if (str[i] >= 'a' && str[i] <= 'z')
+			if (str[i] == special[j])
 			{
-				str[i] = str[i] - 'a' + 'A';
-			}
-			n = 0;
-		}
-		else
-		{
-			if (str[i] >= 'A' && str[i] <= 'Z')
-			{
-				str[i] += 32;
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				{
+					str[i + 1] -= 32;
+				}
 			}
 		}
 	}
