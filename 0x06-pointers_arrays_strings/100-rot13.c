@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * rot13 - Swaps characters of alphabets
+ * @str: String to be converted
+ * Return: Str value is returned
+ */
 char *rot13(char *str)
 {
 	int i;
