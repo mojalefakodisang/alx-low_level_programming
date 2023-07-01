@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - swaps a[2] to 98
+ * Return: Returns 0
+ */
 int main(void)
 {
 	int n;
