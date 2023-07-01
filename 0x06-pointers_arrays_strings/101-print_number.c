@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_number - Prints numbers
+ * @n: Integer to be printed
+ */
 void print_number(int n)
 {
 	int m;
@@ -28,7 +32,7 @@ void print_number(int n)
 		}
 		z = n;
 	}
-	while (z/o > 9)
+	while (z / o > 9)
 	{
 		o = o * 10;
 	}
