@@ -9,3 +9,7 @@ ALX Low level Programming
 [0x03 - Debugging](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x03-debugging)
 
 [0x04 - More functions, nested loops](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+
+[0x05 - Pointers, arrays and strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+
+[0x06 - More Pointers, arrays and strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
