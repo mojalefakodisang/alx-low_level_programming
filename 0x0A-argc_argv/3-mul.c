@@ -9,7 +9,7 @@
  *
  * Return: Returns variable mul on success, 1 when theres no argument, else 1
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int i, j;
 
