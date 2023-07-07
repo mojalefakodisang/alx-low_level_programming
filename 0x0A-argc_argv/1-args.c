@@ -5,11 +5,10 @@
  *
  * @argc: number of arguments passed
  *
- * @argv: array vector
  *
  * Return: Always 0 on success
  */
-int main(int argc, char __attribute__ ((unused)) *argv[])
+int main(int argc)
 {
 	printf("%d\n", argc);
 	return (0);
