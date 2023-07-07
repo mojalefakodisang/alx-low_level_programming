@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * main - Multiplies arguments passed onto the program
  *
@@ -18,7 +19,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
 	printf("%d\n", (i * j));
