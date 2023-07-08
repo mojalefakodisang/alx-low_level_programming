@@ -3,7 +3,7 @@
 
 /**
  * is_positive - Checks if the string passed is positive number
- *
+ * @str: string to be tested
  * Return: Returns 1 on success, else 0
  */
 int is_positive(char *str)
@@ -47,14 +47,14 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		num = atoi(argv[i]);
-		if (num == 0 && argv[i][0] != '0')
+		if (is_positive(argv[i]))
+		{
+			sum += num;
+		}
+		else
 		{
 			printf("Error\n");
 			return (1);
-		}
-		else if (is_positive(argv[i]))
-		{
-			sum += num;
 		}
 	}
 	printf("%d\n", sum);
