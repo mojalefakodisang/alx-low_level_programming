@@ -13,3 +13,11 @@
 [0x05 - Pointers, arrays and strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
 
 [0x06 - More Pointers, arrays and strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+
+[0x07 - Even more pointers, arrays and strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+
+[0x08 - Recursion](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x08-recursion)
+
+[0x09 - Static Libraries](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x09-static_libraries)
+
+[0x0A - argc, argv](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0A-argc_argv)
