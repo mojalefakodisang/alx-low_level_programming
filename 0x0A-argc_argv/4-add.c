@@ -1,5 +1,26 @@
 #include <stdlib.h>
 #include <stdio.h>
+
+/**
+ * is_positive - Checks if the string passed is positive number
+ *
+ * Return: Returns 1 on success, else 0
+ */
+int is_positive(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] < '0' || str[i] > '9')
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
+}
 /**
  * main - adds any positive arguments passed onto the program
  *
@@ -31,7 +52,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		else if (num > 0)
+		else if (is_positive(argv[i]))
 		{
 			sum += num;
 		}
