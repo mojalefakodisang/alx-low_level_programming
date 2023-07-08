@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - adds any positive arguments passed onto the program
  *
@@ -19,21 +19,24 @@ int main(int argc, char *argv[])
 	num = 0;
 	i = 0;
 
-	for (i = 1; i < argc; i++)
+	if (argc == 1)
 	{
-		num = atoi(argv[i]);
-		if (num > 0)
+		printf("%d\n", 0);
+	}
+	else
+	{
+		for (i = 1; i < argc; i++)
 		{
-			sum += num;
-		}
-		else if (!(num > 0))
-		{
-			printf("Error\n");
-			return (1);
-		}
-		else
-		{
-			printf("0\n");
+			num = atoi(argv[i]);
+			if (num > 0)
+			{
+				sum += num;
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 	}
 	printf("%d\n", sum);
