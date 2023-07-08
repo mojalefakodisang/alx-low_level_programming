@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 /**
  * main - adds any positive arguments passed onto the program
  *
