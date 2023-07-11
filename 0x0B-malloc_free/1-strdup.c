@@ -3,25 +3,6 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of string
- *
- * @str: string to be counted
- *
- * Return: returns i
- */
-int _strlen(const char *c)
-{
-	int i;
-
-	i = 0;
-	while (c[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-/**
  * _strdup - returns a pointer to a newly allocated space in memory
  *
  * @str: string to be allocated a new memory
@@ -39,8 +20,12 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	len = _strlen(str);
-	c = (char *)malloc((sizeof(c) * len) + 1);
+	len = 0;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+	c = (char *)malloc((sizeof(char) * len) + 1);
 
 	if (c == NULL)
 	{
@@ -51,6 +36,7 @@ char *_strdup(char *str)
 	{
 		c[i] = str[i];
 	}
+	c[len] = '\0';
 
 	return (c);
 }
