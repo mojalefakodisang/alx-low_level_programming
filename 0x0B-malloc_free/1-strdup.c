@@ -9,6 +9,18 @@
  *
  * Return: returns pointer to str else NULL
  */
+int _strlen(char *c)
+{
+	int i;
+
+	i = 0;
+	while (c[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
+
 char *_strdup(char *str)
 {
 	char *c;
@@ -19,7 +31,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	c = malloc(sizeof(c) * sizeof(str));
+	c = malloc(sizeof(c) * _strlen(str));
 	if (c == NULL)
 	{
 		return (NULL);
