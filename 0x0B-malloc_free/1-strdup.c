@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
- * _strdup - returns a pointer to a newly allocated space in memory
+ * _strlen - returns the length of string
  *
- * @str: string to be allocated a new memory
+ * @str: string to be counted
  *
- * Return: returns pointer to str else NULL
+ * Return: returns i
  */
-int _strlen(char *c)
+int _strlen(const char *c)
 {
 	int i;
 
@@ -21,9 +21,17 @@ int _strlen(char *c)
 	return (i);
 }
 
+/**
+ * _strdup - returns a pointer to a newly allocated space in memory
+ *
+ * @str: string to be allocated a new memory
+ *
+ * Return: returns pointer to str else NULL
+ */
 char *_strdup(char *str)
 {
 	char *c;
+	int len;
 	int i;
 
 	if (str == NULL)
@@ -31,14 +39,18 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	c = malloc(sizeof(c) * _strlen(str));
+	len = _strlen(str);
+	c = (char *)malloc((sizeof(c) * len) + 1);
+
 	if (c == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; str[i] != '\0'; i++)
+
+	for (i = 0; i < len; i++)
 	{
 		c[i] = str[i];
 	}
+
 	return (c);
 }
