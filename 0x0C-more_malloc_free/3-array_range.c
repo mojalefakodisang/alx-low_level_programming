@@ -23,6 +23,11 @@ int *array_range(int min, int max)
 	{
 		size = max - min + 1;
 		numb = malloc(sizeof(int) * size);
+
+		if (!numb)
+		{
+			return (NULL);
+		}
 		for (i = 0; i < size; i++)
 		{
 			numb[i] = min + i;
