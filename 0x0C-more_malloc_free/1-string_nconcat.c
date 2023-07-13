@@ -42,9 +42,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
-	while (i < len1)
+	while (i = 0; i < len1; i++)
 	{
-		ptr[i++] = s1[i++];
+		ptr[i] = s1[i];
 	}
 	while (n < len2 && i < (len1 + n))
 	{
