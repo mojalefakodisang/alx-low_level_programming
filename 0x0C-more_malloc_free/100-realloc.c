@@ -4,29 +4,6 @@
 #include <string.h>
 
 /**
- * _memcpy - copies memory area from source to memory of destination string
- *
- * @dest: destination string
- * @src: source string
- * @n: size of the source string
- *
- * Return: returns destination string
- */
-
-char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	unsigned int i;
-
-	i = 0;
-	while (i < n)
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	return (dest);
-}
-
-/**
  * _realloc - reallocates a memory area with a new memory area
  *
  * @ptr: old pointer to a old memory area
@@ -37,7 +14,9 @@ char *_memcpy(char *dest, char *src, unsigned int n)
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	void *new_ptr;
+	char *new_ptr;
+	char *old_ptr;
+	unsigned int i;
 
 	if (new_size == 0 && ptr)
 	{
@@ -61,13 +40,21 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 
+	old_ptr = ptr;
+
 	if (new_size < old_size)
 	{
-		_memcpy(new_ptr, ptr, old_size);
+		for (i = 0; i < new_size; i++)
+		{
+			new_ptr[i] = old_ptr[i];
+		}
 	}
 	if (new_size > old_size)
 	{
-		_memcpy(new_ptr, ptr, new_size);
+		for (i = 0; i < old_size; i++)
+		{
+			new_ptr[i] = old_ptr[i];
+		}
 	}
 
 	free(ptr);
