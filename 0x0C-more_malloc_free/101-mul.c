@@ -48,7 +48,7 @@ int isPos(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, result;
+	int *num1, *num2, len1, len2, result;
 
 	if (argc != 3)
 	{
@@ -62,11 +62,20 @@ int main(int argc, char *argv[])
 		return (98);
 	}
 
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
+	len1 = atoi(argv[1]);
+	num1 = (int *)malloc(sizeof(int));
+	*num1 = len1;
 
-	result = multiply(num1, num2);
+	len2 = atoi(argv[2]);
+	num2 = (int *)malloc(sizeof(int));
+	*num2 = len2;
+
+	result = multiply(*num1, *num2);
 	printf("%d\n", result);
+
+	free(num1);
+	free(num2);
+
 	return (0);
 
 }
