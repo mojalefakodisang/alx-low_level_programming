@@ -14,8 +14,8 @@
 | 10|    [0x0A - argc, argv](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0A-argc_argv) |
 | 11|    [0x0B - Malloc, free](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0B-malloc_free) |
 | 12|    [0x0C - More malloc, free](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0C-more_malloc_free) |
-| 13|    [0x0D - Preprocessors](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0D-preprocessors) |
-| 14|    [0x0E - Strutures, typedef](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0E-strutures_typedef) |
+| 13|    [0x0D - Preprocessors](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0D-preprocessor) |
+| 14|    [0x0E - Strutures, typedef](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0E-structures_typedef) |
 
 
 
