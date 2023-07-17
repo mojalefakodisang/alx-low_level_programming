@@ -1,7 +1,7 @@
 # ALX Low level Programming
 
 ### Social Media platforms
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40mojalefakodisang)](https://twitter.com/javasbeats_SA)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40javasbeats_SA)](https://twitter.com/javasbeats_SA)
 
 ## These are my projects for the **ALX Software Engineering** 12-months programme
 |   |                    Projects                          |
