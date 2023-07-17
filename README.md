@@ -35,4 +35,4 @@
 
 
 # Reference
-1. Adebiyi, I. *Markdown Badges* Available at: [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ileriayo/markdown-badges)
+1. Adebiyi, I. *Markdown Badges* Available at: [https://github.com/Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges)
