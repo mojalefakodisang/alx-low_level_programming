@@ -1,5 +1,5 @@
 # ALX Low level Programming
-(![Profile Views](https://komarev.com/ghpvc/?username=mojalefakdoisang&label=Profile+Views))
+![Profile Views](https://komarev.com/ghpvc/?username=mojalefakdoisang&label=Profile+Views)
 
 ## Social Media platforms
 [![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://alx-students.slack.com/team/U055WRHFWAG)
