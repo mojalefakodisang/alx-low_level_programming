@@ -2,8 +2,6 @@
 #include <stdio.h>
 
 #ifndef FILE
-#define FILE
-
 #define FILE __FILE__
 
 #endif
