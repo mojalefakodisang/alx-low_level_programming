@@ -1,7 +1,12 @@
 # ALX Low level Programming
 
 ### Social Media platforms
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40javasbeats_SA)](https://twitter.com/javasbeats_SA)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/javasbeats_SA)
+[![LinkdIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mojalefa-kodisang-9751b71b2/)
+[![Yahoo Mail](https://img.shields.io/badge/Yahoo-8B89CC?style=for-the-badge&logo=yahoo&logoColor=white)](https://mail.yahoo.com/mojalefakodisang)
+
+## Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ## These are my projects for the **ALX Software Engineering** 12-months programme
 |   |                    Projects                          |
