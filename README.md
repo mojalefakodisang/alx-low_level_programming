@@ -1,4 +1,8 @@
 # ALX Low level Programming
+[![Github]([https://github.com/mojalefakodisang/alx-low_level_programming/actions/workflows/build.yml/badge.svg](https://img.shields.io/github/followers/mojalefakodisang))](https://github.com/mojalefakodisang)
+[![Twitter]([https://img.shields.io/badge/discourse-community-brightgreen.svg?style=flat](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Fjavasbeats_SA))]([https://community.aseprite.org/](https://twitter.com/javasbeats_SA))
+
+## These are my projects for the ALX Software Engineering 12-months programme
 |   |                    Projects                          |
 |---|------------------------------------------------------|
 | 0 |    [0x00 - Hello, World](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x00-hello_world)                          |
