@@ -1,6 +1,6 @@
 # ALX Low level Programming
 
-### Social Media platforms
+## Social Media platforms
 [![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://alx-students.slack.com/team/U055WRHFWAG)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/javasbeats_SA)
 [![LinkdIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mojalefa-kodisang-9751b71b2/)
@@ -12,7 +12,10 @@
 ## License
 ![alx_africa](https://img.shields.io/badge/License-alx_africa-blue.svg)
 
-## These are my projects for the **ALX Software Engineering** 12-months programme
+### These are my projects for the ALX Software Engineering 12-months programme
+
+Projects includes basic fundamentals of C programming language as a low level programming language which it will be extensively introduced when projects preceeds
+
 |   |                    Projects                          |
 |---|------------------------------------------------------|
 | 0 |    [0x00 - Hello, World](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x00-hello_world)                          |
