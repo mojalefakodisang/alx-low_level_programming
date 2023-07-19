@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
 	a = atoi(argv[1]);
@@ -28,14 +28,14 @@ int main(int argc, char *argv[])
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && b == 0)
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
 
 	op_func = get_op_func(argv[2]);
 	if (op_func == NULL)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	result = op_func(a, b);
