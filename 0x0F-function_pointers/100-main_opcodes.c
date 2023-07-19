@@ -42,13 +42,14 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
+
+	a = atoi(argv[1]);
 	if (a < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
 
-	a = atoi(argv[1]);
 	opcode((char *)&main, a);
 
 	return (0);
