@@ -1,57 +1,48 @@
-#include <stdarg.h>
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "variadic_functions.h"
+#include <stdarg.h>
 
 /**
- * print_all - prints all specifiers corresponding format
- * 
- * @format: string to be printed
- * 
+ * print_all - prints all specifiers
+ *
+ * @format: list of data types
+ *
  * Return: no return value
-*/
-void print_all(const int * const format, ...)
+ */
+void print_all(const char * const format, ...)
 {
-    va_list args;
-    va_start(args, format);
+	va_list args;
+	int I;
+	float F;
+	char *S;
 
-    char c;
-    int i;
-    float f;
-    char *s;
-    int separator;
-    char *str;
-
-    separator = 0;
-    str = format;
-    while (*str != '\0')
-    {
-        if (*str == 'c')
-        {
-            c = va_arg(args, int);
-            printf("%c", c);
-            separator = 1;
-        }
-        else if (*str == 'i')
-        {
-            i = va_arg(args, int);
-            printf("%d", i);
-            separator = 1;
-        }
-        else if (*str == 'f')
-        {
-            f = va_arg(args, double);
-            printf("%f", f);
-            separator = 1;
-        }
-        else if (*str == 's')
-        {
-            s = va_arg(args, char *);
-            printf("%s", s);
-            separator = 1;
-        }
-        str++;
-    }
-    va_end(args);
-    printf("\n");
+	va_start(args, format);
+	while (*format)
+	{
+		if (*format == 'c' || *format == 'i')
+		{
+			I = va_arg(args, int);
+			printf("%d", I);
+		}
+		else if (*format == 'f')
+		{
+			F = va_arg(args, double);
+			printf("%f", F);
+		}
+		else if (*format == 's')
+		{
+			S = va_arg(args, char *);
+			if (S == NULL)
+			{
+				printf("(nil)");
+			}
+			else
+			{
+				printf("%s", S);
+			}
+		}
+	}
+	va_end(args);
+	printf("\n");
 }
