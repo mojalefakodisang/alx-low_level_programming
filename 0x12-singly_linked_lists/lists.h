@@ -1,10 +1,18 @@
+#ifndef _LISTS_H_
+#define _LISTS_H_
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#ifndef LISTS_H_
-#define LISTS_H_
-
+/**
+ * struct list_s - has three members which is pointer to string, length and
+ * pointer to address of next node
+ *
+ * @str: pointer to string
+ * @len: length of the node
+ * @next: pointer to address of next node
+ */
 typedef struct list_s
 {
 	char *str;
