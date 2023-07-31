@@ -9,15 +9,12 @@
  */
 void free_listint(listint_t *head)
 {
-	listint_t *next;
-	listint_t *ptr = (listint_t *)malloc(sizeof(int));
+	listint_t *ptr;
 
-	ptr = head;
-	while (ptr != NULL)
+	while (head != NULL)
 	{
-		next = ptr->next;
-		free(ptr);
-		ptr = next;
+		ptr = head;
+		free(head);
+		head = ptr->next;
 	}
-	head = NULL;
 }
