@@ -2,10 +2,10 @@
 
 /**
  * pop_listint - deletes the head node of a list
- * 
+ *
  * @head: first node of the list
- * 
- * Return:
+ *
+ * Return: returns 1 on success else 0
 */
 int pop_listint(listint_t **head)
 {
