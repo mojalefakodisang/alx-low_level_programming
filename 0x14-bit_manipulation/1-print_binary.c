@@ -18,6 +18,10 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 		return;
 	}
+	if (!n)
+	{
+		return;
+	}
 
 	for (c = 0; c <= 14; ++c)
 	{
