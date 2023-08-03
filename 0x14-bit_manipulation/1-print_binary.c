@@ -9,10 +9,10 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long i = 1 << 14;
+	unsigned long i;
 	int found_one = 0;
-	int c;
 
+	i = 1UL << ((sizeof(unsigned long int) * 8) - 1);
 	if (n == 0)
 	{
 		_putchar('0');
@@ -23,7 +23,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (c = 0; c <= 14; ++c)
+	while (i > 0)
 	{
 		if (n & i)
 		{
