@@ -14,5 +14,14 @@ Projects includes basic fundamentals of **C programming language** as a low leve
 | `0x07` | [Even more pointers, arrays, strings](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) |
 | `0x08` | [Recursion](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x08-recursion) |
 | `0x09` | [Static libraries](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x09-static_libraries) |
+| `0x0A` | [argc, argv](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0A-argc_argv) |
+| `0x0B` | [Malloc, free](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0B-malloc_free) |
+| `0x0C` | [Malloc, free](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0C-malloc_free) |
+| `0x0C` | [More malloc, free](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0C-more_malloc_free) |
+| `0x0D` | [Preprocessor](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0D-preprocessor) |
+| `0x0E` | [Structures, typedef](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0E-structures_typedef) |
+| `0x0F` | [Function pointers](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x0F-function_pointers) |
 | `0x10` | [Variadic functions](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x10-variadic_functions) |
 | `0x12` | [Singly linked lists](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x12-singly_linked_lists) |
+| `0x13` | [More singly linked lists](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists) |
+| `0x14` | [Bit manipulation](https://github.com/mojalefakodisang/alx-low_level_programming/tree/master/0x14-bit_manipulation) |
