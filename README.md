@@ -1,5 +1,5 @@
-# ALX low level programming
-## Description
+<h1 align="center">ALX low level programming</h1>
+<h2 align="center">Description</h2>
 
 Projects includes basic fundamentals of **C programming language** as a low level programming language which it will be extensively introduced when projects preceeds
 | No. | Project |
