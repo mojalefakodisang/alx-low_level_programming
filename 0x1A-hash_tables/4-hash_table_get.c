@@ -22,12 +22,13 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	    strlen(node->key) == 0)
 		return (NULL);
 
-	if (node != NULL)
+	while (node != NULL)
 	{
 		if (node->value == NULL)
 			return (NULL);
 		if (strcmp(node->key, key) == 0)
 			return (node->value);
+		node = node->next;
 	}
 
 	return (NULL);
