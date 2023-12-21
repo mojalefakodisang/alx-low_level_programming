@@ -1,1 +1,1 @@
-0x1A - Hash Tables
+# 0x1A - Hash Tables
