@@ -26,6 +26,8 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 			else
 				return (NULL);
 		}
+		else
+			return (NULL);
 		curr = curr->next;
 	}
 	return (NULL);
