@@ -20,9 +20,12 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	while (curr != NULL)
 	{
 		if (strcmp(curr->key, key) == 0)
-			return (curr->value);
-		else
-			return (NULL);
+		{
+			if (curr->value != NULL)
+				return (curr->value);
+			else
+				return (NULL);
+		}
 		curr = curr->next;
 	}
 	return (NULL);
